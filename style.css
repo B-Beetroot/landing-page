@@ -2,7 +2,6 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
     padding: 0px;
-    margin:0px;
     height: 100%;
 }
 
@@ -35,7 +34,7 @@ img {
     font-weight: bold;  
 }
 
-.header-link {
+.header-link, .welcome-text {
     font-size: 18px;
     color:#e5e7ebe0;
 }
@@ -83,12 +82,6 @@ button {
     font-weight: 600;
 }
 
-button.cancel {
-  background: white;
-  border: 1px solid #ddd;
-  color: #3882F6;
-}
-
 .info {
     display: flex;
     justify-content: center;
@@ -112,7 +105,6 @@ button.cancel {
 
 .sub-content {
     max-width: 170px;
-
 }
 
 .sub-text {
@@ -134,7 +126,6 @@ button.cancel {
     padding: 80px 80px;
     margin-top: 52px;
     background-color: #e5e7eb;
-    
 }
 
 .quote-content {
@@ -148,7 +139,6 @@ button.cancel {
     font-style: italic;
     font-size: 36px;
     color: #1f2937;
-   
 }
 
 .author {
@@ -161,7 +151,6 @@ button.cancel {
     display: flex;
     justify-content: center;
     margin: 52px 0px;
-    
 }
 
 .call-content{
